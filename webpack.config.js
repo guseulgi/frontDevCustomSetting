@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
+  mode: "development", // production 형태로 모드를 정해줄 수 있음
   entry: "./src/index.js",
   output: {
     filename: "main.js",
